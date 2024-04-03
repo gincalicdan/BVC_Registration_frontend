@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', function() {
         confirmationDiv.style.display = 'block';
 
         // Send form data to the server using fetch API
-        fetch('http://localhost:3000/register', {
+        fetch('https://bvc-registration-backend.onrender.com/register', {
         method: 'POST',
         headers: {
         'Content-Type': 'application/json'
